@@ -1,0 +1,213 @@
+[01:56:27] [ServerMain/INFO]: Building unoptimized datafixer
+[01:56:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:56:35] [ServerMain/INFO]: Loaded 7 recipes
+[01:56:37] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[01:56:37] [Server thread/WARN]: ****************************
+[01:56:37] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[01:56:37] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[01:56:37] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[01:56:37] [Server thread/WARN]: ****************************
+[01:56:37] [Server thread/INFO]: Loading properties
+[01:56:37] [Server thread/INFO]: This server is running Paper version git-Paper-118 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT) (Git: c7e118b)
+[01:56:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:56:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:56:38] [Server thread/INFO]: Default game type: SURVIVAL
+[01:56:38] [Server thread/INFO]: Generating keypair
+[01:56:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:56:38] [Server thread/INFO]: Using epoll channel type
+[01:56:38] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:56:38] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:56:39] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_19_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:56:45] [Server thread/WARN]: Legacy plugin Crackshot_Carz v1.2.0 does not specify an api-version.
+[01:56:45] [Server thread/ERROR]: Could not load 'plugins/Morph-3.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [LibsDisguises]. Please download and install these plugins to run 'Morphy'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:287) ~[paper-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R1.CraftServer.loadPlugins(CraftServer.java:421) ~[paper-1.19.2.jar:git-Paper-118]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.19.2.jar:git-Paper-118]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1125) ~[paper-1.19.2.jar:git-Paper-118]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-118]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[01:56:45] [Server thread/INFO]: [Brewery] Loading Brewery v3.1.1
+[01:56:45] [Server thread/INFO]: [PlayerHeads] Loading PlayerHeads v5.2.18-SNAPSHOT
+[01:56:45] [Server thread/INFO]: [PlayerHeads] Internal plugin locale: 
+[01:56:45] [Server thread/INFO]: [PlayerHeads] Environment locale: en_US / en-US
+[01:56:45] [Server thread/INFO]: [PlayerHeads] Trying provider: craftbukkit_1_14
+[01:56:45] [Server thread/INFO]: [Crackshot_Carz] Loading Crackshot_Carz v1.2.0
+[01:56:45] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.46
+[01:56:46] [Server thread/INFO]: [voicechat] Loading voicechat v1.19.2-2.3.6
+[01:56:46] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.4.8-Release
+[01:56:46] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[01:56:46] [Server thread/INFO]: [SpawnerSilk] Loading SpawnerSilk v5.2.0
+[01:56:46] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.6.7-Release
+[01:56:46] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
+[01:56:46] [Server thread/INFO]: [MarriageMaster] File "/IMessage.jar" extracted successfully!
+[01:56:46] [Server thread/INFO]: [ClickSort] Loading ClickSort v1.6.1
+[01:56:46] [Server thread/INFO]: [DeadChest] Loading DeadChest v4.13.0
+[01:56:46] [Server thread/INFO]: [DeadChest] Worldguard support disabled by user
+[01:56:46] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b600
+[01:56:46] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.2) has not yet been tested! Proceed with caution.
+[01:56:47] [Server thread/INFO]: [dynmap] Loading dynmap v3.4-828
+[01:56:47] [Server thread/INFO]: [dynmap] version=git-Paper-118 (MC: 1.19.2)
+[01:56:47] [Server thread/INFO]: [dynmap] Mod Support API available
+[01:56:47] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.12
+[01:56:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:56:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.46
+[01:56:48] [Server thread/INFO]:         __    
+[01:56:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.46
+[01:56:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:56:48] [Server thread/INFO]: 
+[01:56:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:56:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:56:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:56:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:56:51] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3299ms)
+[01:56:51] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b600
+[01:56:51] [Server thread/INFO]: Preparing level "world"
+[01:57:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:08] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:09] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:09] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:10] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:10] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:10] [Server thread/INFO]: Time elapsed: 3248 ms
+[01:57:10] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:57:11] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:11] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:11] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:12] [Server thread/INFO]: Time elapsed: 2019 ms
+[01:57:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:57:12] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:13] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:13] [Server thread/INFO]: Preparing spawn area: 0%
+[01:57:13] [Server thread/INFO]: Time elapsed: 1156 ms
+[01:57:13] [Server thread/INFO]: [Brewery] Enabling Brewery v3.1.1
+[01:57:14] [Server thread/INFO]: [Brewery] Brewery enabled!
+[01:57:14] [Server thread/INFO]: [PlayerHeads] Enabling PlayerHeads v5.2.18-SNAPSHOT
+[01:57:14] [Server thread/INFO]: [PlayerHeads] NoCheatPlus not detected.
+[01:57:14] [Server thread/INFO]: [PlayerHeads] Current plugin compatibility version: craftbukkit 1.14+
+[01:57:14] [Server thread/INFO]: [Crackshot_Carz] Enabling Crackshot_Carz v1.2.0*
+[01:57:14] [Server thread/WARN]: [Crackshot_Carz] CrackShot not found or disabled in config, disabling support.
+[01:57:14] [Server thread/INFO]: Crackshot Carz has been enabled.
+[01:57:14] [Server thread/INFO]: v1_19_R1
+[01:57:14] [Server thread/INFO]: [voicechat] Enabling voicechat v1.19.2-2.3.6
+[01:57:14] [Server thread/INFO]: [voicechat] Compatibility version 15
+[01:57:14] [Server thread/INFO]: [voicechat] Loading translations
+[01:57:14] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[01:57:14] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.4.8-Release
+[01:57:14] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[01:57:14] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[01:57:14] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[01:57:14] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[01:57:14] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[01:57:15] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[01:57:15] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[01:57:15] [Server thread/INFO]: [Minepacks] Finished loading item translations for 828 items.
+[01:57:15] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[01:57:15] [Server thread/INFO]: [SpawnerSilk] Enabling SpawnerSilk v5.2.0
+[01:57:15] [Server thread/WARN]: [SpawnerSilk] Missing configuration found
+[01:57:15] [Server thread/WARN]: [SpawnerSilk] Updating config.yml with missing parameters
+[01:57:15] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.6.7-Release
+[01:57:15] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
+[01:57:15] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[01:57:15] [Server thread/INFO]: [MarriageMaster] [32mSuccessful linked with [33mMinepacks v2.4.8-Release[32m![0m
+[01:57:15] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[01:57:15] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Starting...
+[01:57:15] [Server thread/INFO]: [at.pcgamingfreaks.MarriageMasterStandalone.libs.com.zaxxer.hikari.HikariDataSource] MarriageMaster-Connection-Pool - Start completed.
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Loading marriages ...
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Marriages loaded
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Loading priests ...
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Priests loaded
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Loading players ...
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Players loaded
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Writing marriages into cache ...
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Marriages loaded into cache
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Loading homes ...
+[01:57:15] [Thread-11/INFO]: [MarriageMaster] Homes loaded
+[01:57:15] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[01:57:15] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
+[01:57:15] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 828 items.
+[01:57:15] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[01:57:15] [Server thread/INFO]: [ClickSort] Enabling ClickSort v1.6.1
+[01:57:15] [Server thread/INFO]: [DeadChest] Enabling DeadChest v4.13.0
+[01:57:16] [Server thread/INFO]: [dynmap] Enabling dynmap v3.4-828
+[01:57:16] [Server thread/INFO]: [dynmap] Added 20 custom biome mappings
+[01:57:16] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.46 for access control
+[01:57:16] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[01:57:21] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[01:57:21] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[01:57:21] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[01:57:21] [Server thread/INFO]: [dynmap] version 3.4-828 is enabled - core version 3.4-828
+[01:57:21] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[01:57:21] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://twitter.com/Dynmap
+[01:57:21] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[01:57:21] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[01:57:21] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[01:57:21] [Server thread/INFO]: [dynmap] Enabled
+[01:57:21] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.12
+[01:57:21] [Server thread/INFO]: [SuperVanish] Hooked into dynmap
+[01:57:21] [Server thread/INFO]: Running delayed init tasks
+[01:57:21] [Server thread/INFO]: [voicechat] Loading plugins
+[01:57:21] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[01:57:21] [Server thread/INFO]: [voicechat] Initializing plugins
+[01:57:21] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[01:57:21] [Craft Scheduler Thread - 4 - Brewery/INFO]: [Brewery] Background data loading complete.
+[01:57:21] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[01:57:21] [Server thread/INFO]: Done (44.013s)! For help, type "help"
+[01:57:21] [Server thread/INFO]: Timings Reset
+[01:57:21] [VoiceChatServerThread/INFO]: [voicechat] Server started at port 24454
+[01:59:14] [User Authenticator #1/INFO]: UUID of player SmokeTheTrees is 685db886-4243-4c4b-8502-64a71658b5ae
+[01:59:15] [Server thread/INFO]: SmokeTheTrees joined the game
+[01:59:15] [Server thread/INFO]: SmokeTheTrees[/100.84.139.52:53601] logged in with entity id 272 at ([world]-316.77166207963694, 69.0625, 2599.098989746321)
+[01:59:19] [Server thread/INFO]: SmokeTheTrees lost connection: Disconnected
+[01:59:19] [Server thread/INFO]: [voicechat] Disconnecting client SmokeTheTrees
+[01:59:19] [Server thread/INFO]: SmokeTheTrees left the game
+[02:37:21] [Server thread/ERROR]: Failed to save level ./world
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:336) ~[?:?]
+	at java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:185) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:97) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:112) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:138) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:123) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:460) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1250) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1453) ~[paper-1.19.2.jar:git-Paper-118]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1192) ~[paper-1.19.2.jar:git-Paper-118]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:305) ~[paper-1.19.2.jar:git-Paper-118]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[02:37:21] [Server thread/ERROR]: Failed to save level ./world_nether
+java.io.IOException: No space left on device
+	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
+	at java.io.FileOutputStream.write(FileOutputStream.java:336) ~[?:?]
+	at java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:185) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:97) ~[?:?]
+	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:112) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:138) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:123) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:460) ~[?:?]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1250) ~[?:?]
+	at ne[03:02:22] [Server thread/INFO]: Stopping server
+[03:02:25] [Server thread/INFO]: Crackshot Carz has been disabled.
+[03:02:25] [Server thread/INFO]: [Brewery] Brewery disabled!
+[03:02:25] [Server thread/INFO]: Saving players
+[03:02:25] [Server thread/INFO]: Saving worlds
+[03:02:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:02:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:02:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:02:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:02:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:02:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:02:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:02:28] [Server thread/INFO]: Flushing Chunk IO
+[03:02:28] [Server thread/INFO]: Closing Thread Pool
+[03:02:28] [Server thread/INFO]: Closing Server

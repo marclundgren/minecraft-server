@@ -1,0 +1,65 @@
+chestData:
+- ==: ChestData
+  playerUUID: 128dd954-5464-4c1e-9b34-54c563a40bf6
+  holographicTimer: world;266.5;62.799999952316284;124.5
+  worldName: world
+  as_timer_id: 376e5740-15c6-4034-bfc9-82100f96ac4b
+  playerName: Texder
+  isInfinity: false
+  as_owner_id: df15d1d1-77c5-4003-a2c8-fcc45ee0ab7c
+  chestDate: 2022-09-27T05:28:46.494Z
+  inventory:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    v: 3120
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Backpack"}],"text":""}'
+      skull-owner:
+        ==: PlayerProfile
+        uniqueId: ed57ebc5-704e-3ba1-8e1a-1e774d884533
+        properties:
+        - name: textures
+          value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjYzZlYjQwZjNiYWRhNDFlNDMzOTg4OGQ2ZDIwNzQzNzU5OGJkYmQxNzVjMmU3MzExOTFkNWE5YTQyZDNjOCJ9fX0=
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  chestLocation: world;266.0;62.0;124.0
